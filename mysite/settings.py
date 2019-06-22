@@ -53,6 +53,8 @@ MIDDLEWARE_CLASSES = [
 
 SILENCED_SYSTEM_CHECKS = [
     'admin.E408',
+    'admin.E409',
+    'admin.E410',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
