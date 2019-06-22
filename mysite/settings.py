@@ -51,6 +51,10 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SILENCED_SYSTEM_CHECKS = [
+    'admin.E408',
+]
+
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
